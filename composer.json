@@ -1,0 +1,25 @@
+{
+    "name": "blu3blaze/laravel-xchacha20-encrypter",
+    "description": "Seamlessly integrate XChaCha20-Poly1305 encryption into Laravel application",
+    "keywords": [
+        "blu3blaze",
+        "laravel",
+        "encrypter"
+    ],
+    "homepage": "https://github.com/blu3blaze/laravel-xchacha20-encrypter",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blu3blaze\\Encrypter\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
